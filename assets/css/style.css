@@ -32,9 +32,13 @@ body {
 
 .altrobottone-contenitore {
   height: 30px;
-  width: 80px;
-
+  width: 100px;
+  margin-left: 5px;
   border-radius: 8px;
+  border: 1px solid gray;
+  color: grey;
+  line-height: 25px;
+  text-align: center;
   display: inline-block;
 }
 
@@ -43,6 +47,10 @@ body {
   width: 80px;
   background-color: aqua;
   border-radius: 8px;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  line-height: 25px;
   display: inline-block;
 }
 
