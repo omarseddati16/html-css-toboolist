@@ -4,10 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
   background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header */
@@ -53,8 +55,23 @@ h2 {
 }
 
 span {
-  font-size: 20px
+  font-size: 18px;
 }
+
+.check {
+  text-align: center;
+  line-height: 5px;
+  display: inline-block;
+  color: red;
+}
+
+.checkmark {
+  text-align: center;
+  line-height: 5px;
+  display: inline-block;
+  color: green;
+}
+
 
 .azzurro-contenitore {
   height: 30px;
@@ -167,6 +184,7 @@ span {
   border-top: 1px solid;
   width: 100%;
   margin-top: 10px;
+  color: lightgrey;
 }
 
 
