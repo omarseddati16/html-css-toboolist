@@ -1,0 +1,33 @@
+/* css reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+/* header */
+
+.logo {
+  padding: 15px 0px 0px 20px
+}
+
+.line {
+  padding-bottom: 20px;
+  font-style: normal;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.primo-box {
+  height: 80px;
+  width: 2010px;
+  background-color: white;
+
+}
+
+/* Main */
