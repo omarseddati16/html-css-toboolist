@@ -13,11 +13,10 @@ body {
 /* header */
 
 .logo {
-  padding: 15px 0px 0px 20px
+  padding: 15px 0px 0px 15px;
 }
 
 .line {
-  padding-bottom: 20px;
   font-style: normal;
   font-size: 40px;
   display: inline-block;
@@ -25,9 +24,34 @@ body {
 
 .primo-box {
   height: 80px;
-  width: 2010px;
+  width: 100%;
   background-color: white;
-
 }
 
 /* Main */
+
+.altrobottone-contenitore {
+  height: 30px;
+  width: 80px;
+
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.bottone-contenitore {
+  height: 30px;
+  width: 80px;
+  background-color: aqua;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+
+.contenitore-box {
+  width: 1000px;
+  height: 1000px;
+  background-color: white;
+  margin: 40px auto;
+  border-radius: 8px;
+  padding: 20px;
+}
