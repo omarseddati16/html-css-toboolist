@@ -34,19 +34,51 @@ body {
 
 /* Utili */
 
+.spazio {
+  padding: 10px;
+}
+
 .inlinea {
   display: inline-block;
 }
 
 .spostaretutto {
-  display: flex;
-  margin-left: 50px;
-  margin-top: 20px;
+  padding: 30px 60px 50px 60px;
 }
 
 /* Main */
 
-.cerchio {
+h2 {
+  margin-top: 30px;
+}
+
+.cerchiorosso {
+  width: 20px;
+  height: 20px;
+  border: 2px solid red;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+}
+
+.largo {
+  padding: 10px;
+}
+
+
+.altri-contenitore {
+  height: 30px;
+  width: 80px;
+  background-color: blue;
+  border-radius: 12px;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  display: inline-block;
+}
+
+.cerchioverde {
   width: 20px;
   height: 20px;
   border: 2px solid green;
@@ -88,9 +120,7 @@ body {
 
 .contenitore-box {
   width: 1000px;
-  height: 1000px;
   background-color: white;
   margin: 40px auto;
   border-radius: 8px;
-  padding: 0px;
 }
